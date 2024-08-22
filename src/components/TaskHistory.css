@@ -1,0 +1,45 @@
+.TaskHistory {
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e0e0e0;
+}
+
+.TaskHistory h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 10px;
+}
+
+.TaskHistory ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.TaskHistory li {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1.2rem;
+    color: #444;
+    transition: background-color 0.3s ease;
+}
+
+.TaskHistory li:hover {
+    background-color: #f1f1f1;
+}
+
+.TaskHistory li:last-child {
+    border-bottom: none;
+}
+
+.TaskHistory strong {
+    color: #333;
+    font-weight: 500;
+}

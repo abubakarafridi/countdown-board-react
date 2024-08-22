@@ -1,0 +1,40 @@
+/* CountdownHome.css */
+
+.countdown-home {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .task-section {
+    width: 30%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .to-do {
+    border: 2px solid #ffc107;
+  }
+  
+  .in-progress {
+    border: 2px solid #17a2b8;
+  }
+  
+  .completed {
+    border: 2px solid #28a745;
+  }
+  
+  .auth-btn {
+    width: 100%;
+  }
+
+  .nav-item {
+    
+  }
